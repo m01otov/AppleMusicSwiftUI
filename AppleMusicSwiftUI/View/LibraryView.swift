@@ -15,6 +15,9 @@ struct LibraryView: View {
     var body: some View {
         NavigationView {
             VStack {
+                if isEditing {
+                    LibraryList()
+                } else {
                 Text("Ищите свою музыку?")
                     .bold()
                     .font(.title3)
@@ -25,6 +28,7 @@ struct LibraryView: View {
                     .multilineTextAlignment(.center)
                     .padding([.leading, .trailing], 20)
             }
+}
             .navigationTitle("Медиатека")
             .environment(\.editMode, .constant(self.isEditing ? EditMode.active : EditMode.inactive))
             .toolbar {

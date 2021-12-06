@@ -7,16 +7,18 @@
 
 import SwiftUI
 
-enum Tab: String {
-    case library = "Медиатека"
-    case radio = "Радио"
-    case search = "Поиск"
-}
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack(alignment: .bottom) {
+            TabView {
+                LibraryView()
+                    .tabItem{
+                        Label("Медиатека", systemImage: "square.stack.fill")
+                }
+            }
+            .accentColor(.red)
+        }
     }
 }
 
