@@ -15,6 +15,7 @@
 		905853AF275E68C80085E531 /* LibraryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905853AE275E68C80085E531 /* LibraryList.swift */; };
 		905853B1275E6A420085E531 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905853B0275E6A420085E531 /* Library.swift */; };
 		905853B3275E6D0E0085E531 /* LibraryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905853B2275E6D0E0085E531 /* LibraryCell.swift */; };
+		905853B5275E74CA0085E531 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905853B4275E74CA0085E531 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		905853AE275E68C80085E531 /* LibraryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryList.swift; sourceTree = "<group>"; };
 		905853B0275E6A420085E531 /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
 		905853B2275E6D0E0085E531 /* LibraryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryCell.swift; sourceTree = "<group>"; };
+		905853B4275E74CA0085E531 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				905853AC275E65810085E531 /* LibraryView.swift */,
 				905853AE275E68C80085E531 /* LibraryList.swift */,
 				905853B2275E6D0E0085E531 /* LibraryCell.swift */,
+				905853B4275E74CA0085E531 /* Player.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				905853AF275E68C80085E531 /* LibraryList.swift in Sources */,
 				905853B1275E6A420085E531 /* Library.swift in Sources */,
 				905853B3275E6D0E0085E531 /* LibraryCell.swift in Sources */,
+				905853B5275E74CA0085E531 /* Player.swift in Sources */,
 				905853AD275E65810085E531 /* LibraryView.swift in Sources */,
 				9058539C275E62AF0085E531 /* AppleMusicSwiftUIApp.swift in Sources */,
 			);
