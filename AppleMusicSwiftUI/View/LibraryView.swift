@@ -34,6 +34,7 @@ struct LibraryView: View {
                         } label: {
                             Text(isEditing ? "Готово" : "Править")
                                 .frame(width: 80, height: 40)
+                                .foregroundColor(Color.red)
                         }
                 }  }
         }

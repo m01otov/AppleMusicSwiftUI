@@ -17,7 +17,7 @@ struct LibraryCell: View {
                 .resizable()
                 .scaledToFit()
                 .frame(width: 24, height: 24)
-                .foregroundColor(Color.accentColor)
+                .foregroundColor(Color.red)
             Text(library.name)
                 .padding(.leading,6)
                 .font(.title2)
