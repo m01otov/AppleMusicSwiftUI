@@ -15,7 +15,7 @@ struct LibraryList: View {
     var body: some View {
         List(selection: $multiSelection) {
             ForEach(libraryList, id: \.self) { library in
-                Text("name") // add cell
+                LibraryCell(library: library)
         }
             .onMove(perform: { _,_ in })
         }
