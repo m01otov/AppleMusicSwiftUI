@@ -12,6 +12,7 @@ struct RadioView: View {
         NavigationView {
             ScrollView{
 
+
             }
         }
     }

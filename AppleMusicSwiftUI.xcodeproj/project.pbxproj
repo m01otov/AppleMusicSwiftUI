@@ -19,6 +19,7 @@
 		90E364CC27649E9700DE3B76 /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E364CB27649E9700DE3B76 /* Favorite.swift */; };
 		90E364D02764A1B500DE3B76 /* RadioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E364CF2764A1B500DE3B76 /* RadioView.swift */; };
 		90E364D22764A25B00DE3B76 /* FavoriteViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E364D12764A25B00DE3B76 /* FavoriteViewCell.swift */; };
+		90E364D42764A93100DE3B76 /* ListTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E364D32764A93100DE3B76 /* ListTileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		90E364CB27649E9700DE3B76 /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
 		90E364CF2764A1B500DE3B76 /* RadioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioView.swift; sourceTree = "<group>"; };
 		90E364D12764A25B00DE3B76 /* FavoriteViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewCell.swift; sourceTree = "<group>"; };
+		90E364D32764A93100DE3B76 /* ListTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				905853B4275E74CA0085E531 /* Player.swift */,
 				90E364CF2764A1B500DE3B76 /* RadioView.swift */,
 				90E364D12764A25B00DE3B76 /* FavoriteViewCell.swift */,
+				90E364D32764A93100DE3B76 /* ListTileView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				905853B3275E6D0E0085E531 /* LibraryCell.swift in Sources */,
 				905853B5275E74CA0085E531 /* Player.swift in Sources */,
 				90E364D22764A25B00DE3B76 /* FavoriteViewCell.swift in Sources */,
+				90E364D42764A93100DE3B76 /* ListTileView.swift in Sources */,
 				90E364D02764A1B500DE3B76 /* RadioView.swift in Sources */,
 				905853AD275E65810085E531 /* LibraryView.swift in Sources */,
 				9058539C275E62AF0085E531 /* AppleMusicSwiftUIApp.swift in Sources */,

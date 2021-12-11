@@ -8,8 +8,10 @@
 import SwiftUI
 
 struct FavoriteViewCell: View {
+
     let favorite: Favorite
     @State private var titleHeight: CGFloat = 0
+
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
             Divider()
