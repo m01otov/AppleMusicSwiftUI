@@ -16,6 +16,9 @@
 		905853B1275E6A420085E531 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905853B0275E6A420085E531 /* Library.swift */; };
 		905853B3275E6D0E0085E531 /* LibraryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905853B2275E6D0E0085E531 /* LibraryCell.swift */; };
 		905853B5275E74CA0085E531 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905853B4275E74CA0085E531 /* Player.swift */; };
+		90E364CC27649E9700DE3B76 /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E364CB27649E9700DE3B76 /* Favorite.swift */; };
+		90E364D02764A1B500DE3B76 /* RadioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E364CF2764A1B500DE3B76 /* RadioView.swift */; };
+		90E364D22764A25B00DE3B76 /* FavoriteViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E364D12764A25B00DE3B76 /* FavoriteViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		905853B0275E6A420085E531 /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
 		905853B2275E6D0E0085E531 /* LibraryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryCell.swift; sourceTree = "<group>"; };
 		905853B4275E74CA0085E531 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		90E364CB27649E9700DE3B76 /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
+		90E364CF2764A1B500DE3B76 /* RadioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioView.swift; sourceTree = "<group>"; };
+		90E364D12764A25B00DE3B76 /* FavoriteViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,8 @@
 				905853AE275E68C80085E531 /* LibraryList.swift */,
 				905853B2275E6D0E0085E531 /* LibraryCell.swift */,
 				905853B4275E74CA0085E531 /* Player.swift */,
+				90E364CF2764A1B500DE3B76 /* RadioView.swift */,
+				90E364D12764A25B00DE3B76 /* FavoriteViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -102,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				905853B0275E6A420085E531 /* Library.swift */,
+				90E364CB27649E9700DE3B76 /* Favorite.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -177,10 +186,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9058539E275E62AF0085E531 /* ContentView.swift in Sources */,
+				90E364CC27649E9700DE3B76 /* Favorite.swift in Sources */,
 				905853AF275E68C80085E531 /* LibraryList.swift in Sources */,
 				905853B1275E6A420085E531 /* Library.swift in Sources */,
 				905853B3275E6D0E0085E531 /* LibraryCell.swift in Sources */,
 				905853B5275E74CA0085E531 /* Player.swift in Sources */,
+				90E364D22764A25B00DE3B76 /* FavoriteViewCell.swift in Sources */,
+				90E364D02764A1B500DE3B76 /* RadioView.swift in Sources */,
 				905853AD275E65810085E531 /* LibraryView.swift in Sources */,
 				9058539C275E62AF0085E531 /* AppleMusicSwiftUIApp.swift in Sources */,
 			);
