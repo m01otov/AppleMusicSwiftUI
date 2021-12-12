@@ -7,9 +7,9 @@
 
 import SwiftUI
 
-struct ListTileView: View {
+struct ListBarView: View {
     let title: String
-    let tileList: [Tile]
+    let tileList: [Bar]
 
     let columns = [
         GridItem(.flexible())
@@ -23,16 +23,16 @@ struct ListTileView: View {
                     .bold()
                 LazyVGrid(columns: columns, alignment: .leading) {
                     ForEach(tileList, id: \.self) { tile in
-                    //      ListViewCell
+                        ListBarViewCell(bar: tile)
                     }
+                }
             }
-        }
 
+        }
     }
 }
-
 struct ListTileView_Previews: PreviewProvider {
     static var previews: some View {
-        ListTileView()
+        ListBarView(title: "Станция", tileList: radioStationList)
     }
 }
