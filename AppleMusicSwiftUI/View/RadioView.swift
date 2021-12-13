@@ -10,10 +10,16 @@ import SwiftUI
 struct RadioView: View {
     var body: some View {
         NavigationView {
-            ScrollView{
+            ScrollView {
+                FavoriteView(favoriteList: radioFavoriteList)
 
+                Divider()
+                    .padding(.horizontal, 20)
+                    .padding(.vertical, 10)
+                ListBarView(title: "Станции", tileList: radioStationList)
 
             }
+            .navigationTitle("Радио")
         }
     }
 }
