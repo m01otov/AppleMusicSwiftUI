@@ -31,6 +31,19 @@ var radioStationList: [Bar] = [
     Bar(title: "Рок на русском", subTitle: nil, imageName: "stationRuRock"),
     Bar(title: "Классика", subTitle: "Выдающиеся образцы жанра.", imageName: "stationClassic")
 ]
+
+var appleMusicNewYear: [Bar] = [
+
+    Bar( title: "Новогодние песни 2021", subTitle: "Apple Music", imageName: "playlistNY"),
+    Bar( title: "Зимняя классика", subTitle: "Apple Music", imageName: "playlistClassic"),
+    Bar( title: "Праздничная классика", subTitle: "Apple Music", imageName: "playlist01"),
+    Bar( title: "Песни под елку", subTitle: "Apple Music", imageName: "playlistNY1"),
+    Bar( title: "Зимний джаз", subTitle: "Apple Music", imageName: "playlist06"),
+    Bar( title: "Зимняя магия", subTitle: "Apple Music", imageName: "playlist03"),
+    Bar( title: "Зимний поп-рок", subTitle: "Apple Music", imageName: "playlist05")
+]
+
+
 var sampleBar = Bar(title: "Хип-хоп",
                       subTitle: "Apple Music Хип-хоп",
                       imageName: "atl.png"
