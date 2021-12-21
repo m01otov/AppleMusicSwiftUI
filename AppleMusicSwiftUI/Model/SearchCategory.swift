@@ -34,3 +34,5 @@ var searchList: [SearchCategory] = [
     SearchCategory( title: "Чарты", favoriteList: searchFavoriteListHipHop, playList: appleMusicNewYear, imageName: "searchCharts"),
     SearchCategory( title: "DJ-миксы", favoriteList: searchFavoriteListHipHop, playList: appleMusicNewYear, imageName: "searchDJmix")
 ]
+
+var sampleSearchCategory = SearchCategory( title: "Хип-Хоп", favoriteList: searchFavoriteListHipHop, playList: appleMusicNewYear, imageName:"searchHipHop")
