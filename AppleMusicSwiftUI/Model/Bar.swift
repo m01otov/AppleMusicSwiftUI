@@ -42,6 +42,15 @@ var appleMusicNewYear: [Bar] = [
     Bar( title: "Зимняя магия", subTitle: "Apple Music", imageName: "playlist03"),
     Bar( title: "Зимний поп-рок", subTitle: "Apple Music", imageName: "playlist05")
 ]
+var appleMusicHipHop: [Bar] = [
+
+    Bar(title: "Rap Life 2021", subTitle: "Apple Music Хип-Хоп", imageName: "playlist1"),
+    Bar(title: "Новинки поп-музыки", subTitle: "Apple Music Поп", imageName: "playlist2"),
+    Bar(title: "Только хиты 2021", subTitle: "Apple Music Хиты", imageName: "playlist3"),
+    Bar(title: "danceXL", subTitle: "Apple Music Танцевательная", imageName: "playlist4"),
+    Bar(title: "Поп-волна", subTitle: "Apple Music Поп на русском", imageName: "playlist5")
+
+]
 
 
 var sampleBar = Bar(title: "Хип-хоп",

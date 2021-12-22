@@ -29,7 +29,7 @@ var searchList: [SearchCategory] = [
     SearchCategory( title: "Хип-хоп на русском", favoriteList: searchFavoriteListHipHop, playList: appleMusicNewYear, imageName: "searchRuHipHop"),
     SearchCategory( title: "Хиты", favoriteList: searchFavoriteListHipHop, playList: appleMusicNewYear, imageName: "searchHit"),
     SearchCategory( title: "Хорошее настроение", favoriteList: searchFavoriteListHipHop, playList: appleMusicNewYear, imageName: "searchGood"),
-    SearchCategory( title: "Хиты на русском", favoriteList: searchFavoriteListHipHop, playList: appleMusicNewYear, imageName: "searchRuHit"),
+    SearchCategory( title: "Хиты на русском", favoriteList: searchFavoriteListHipHop, playList: appleMusicNewYear, imageName: "searchAlternative"),
     SearchCategory( title: "Рок на русском", favoriteList: searchFavoriteListHipHop, playList: appleMusicNewYear, imageName: "searchRuRock"),
     SearchCategory( title: "Чарты", favoriteList: searchFavoriteListHipHop, playList: appleMusicNewYear, imageName: "searchCharts"),
     SearchCategory( title: "DJ-миксы", favoriteList: searchFavoriteListHipHop, playList: appleMusicNewYear, imageName: "searchDJmix")
