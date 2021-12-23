@@ -22,7 +22,7 @@ struct ContentView: View {
                         Image(systemName: "dot.radiowaves.left.and.right")
                         Text("Радио")
                 }
-                Text("Здесь появится купленная вами музыка")
+                SearchView_swift()
 
                         .tabItem {
                         Image(systemName: "magnifyingglass")
