@@ -9,7 +9,12 @@ import SwiftUI
 
 
 struct ContentView: View {
+    @State var isDeployed = false
+
     var body: some View {
+
+
+
         ZStack(alignment: .bottom) {
             TabView {
                 LibraryView()
@@ -31,7 +36,8 @@ struct ContentView: View {
                 }
             }
             .accentColor(.red)
-            Player()
+            MiniPlayerView(isDeployed: $isDeployed)
+                .offset(y: isDeployed ? 0 : -48)
         }
     }
 }
