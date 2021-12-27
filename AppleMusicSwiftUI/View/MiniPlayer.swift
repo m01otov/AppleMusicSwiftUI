@@ -11,7 +11,7 @@ struct MiniPlayerView: View {
 
     @Binding var isDeployed: Bool
 
-    @State var songTimePosition: Int = 74
+    @State var songTimePosition: Double = 74
 
     @State private var volume = 75.0
     @State private var isPlaying = false
@@ -111,7 +111,10 @@ struct MiniPlayerView: View {
                         .tint(.secondary)
                     }
 
-                    //Need slider
+                    //Need slider:
+
+                    Slider(value: $songTimePosition, in: 1...100)
+                        .frame(height: 32)
 
                     //Buttons Player:
 
