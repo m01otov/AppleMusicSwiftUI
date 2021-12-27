@@ -9,20 +9,25 @@ import SwiftUI
 
 
 struct ContentView: View {
+    @State var isDeployed = false
+
     var body: some View {
+
+
+
         ZStack(alignment: .bottom) {
             TabView {
                 LibraryView()
                     .tabItem{
                         Label("Медиатека", systemImage: "square.stack.fill")
                 }
-                Text("Здесь появится купленная вами музыка")
+                RadioView()
 
                         .tabItem {
                         Image(systemName: "dot.radiowaves.left.and.right")
                         Text("Радио")
                 }
-                Text("Здесь появится купленная вами музыка")
+                SearchView_swift()
 
                         .tabItem {
                         Image(systemName: "magnifyingglass")
@@ -31,7 +36,8 @@ struct ContentView: View {
                 }
             }
             .accentColor(.red)
-            Player()
+            MiniPlayerView(isDeployed: $isDeployed)
+                .offset(y: isDeployed ? 0 : -48)
         }
     }
 }

@@ -30,3 +30,9 @@ var libraryList: [Library] = [
     Library(name: "Загружено", iconName: "arrow.down.circle"),
     Library(name: "Домашняя коллекция", iconName: "music.note.house"),
 ]
+
+enum Music {
+    static let songName = "Танцуйте"
+    static let songArtist = "ATL"
+    static let songTime = 330
+}
