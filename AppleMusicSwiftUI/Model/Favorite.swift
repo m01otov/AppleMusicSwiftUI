@@ -31,6 +31,12 @@ var radioFavoriteList: [Favorite] = [
     Favorite(category: "Избранная радиостанция", title: "Хиты", subTitle: "То, что слушаю прямо сейчас.", imageName: "radioHit")
 ]
 
+var searchFavoriteListHipHop: [Favorite] = [
+
+    Favorite(category: "Только в Apple Music", title: "Зимние хиты", imageName: "favNY2"),
+    Favorite(category: "Только в Apple Music", title: "Новогодние песни 2021", imageName: "favoritePOP"),
+    Favorite(category: "Только в Apple Music", title: "Новогодние подарки", imageName: "favorite3")
+]
 
 var sampleFavorite = Favorite(category: "Только в Apple Music",
                               title: "Поп-звезда делится своей версией новогодней песни",
