@@ -27,8 +27,8 @@ struct ContentView: View {
                         Image(systemName: "dot.radiowaves.left.and.right")
                         Text("Радио")
                 }
-                SearchView_swift()
-
+//                SearchView_swift()
+                SearchViewUI()
                         .tabItem {
                         Image(systemName: "magnifyingglass")
                         Text("Поиск")
